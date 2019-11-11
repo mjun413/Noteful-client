@@ -3,6 +3,11 @@
   color: #dedede;
   padding: 16px;
   max-width: 332px;
+  float:right;
+}
+
+.Noteful-form.add-note{
+  float:left;
 }
 
 .Noteful-form label {
@@ -45,4 +50,8 @@
 .Noteful-form button[type="submit"]:hover {
   background-color: #29862e;
   color: white;
+}
+
+.error {
+  color: red;
 }
